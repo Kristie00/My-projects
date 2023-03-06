@@ -1,2 +1,2 @@
 # My-projects
-Repo for my project that I did in GFA bootcamp
+Repo for my projects that I did in GFA bootcamp
