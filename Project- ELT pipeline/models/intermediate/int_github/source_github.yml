@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: int_gsheet
+    database: nodal-wall-370813
+    schema: dbt_kkafkova
+    tables:
+      - name: int_gsheet
+        identifier: "int_gsheet"
+
+  - name: stg_github
+    database: nodal-wall-370813
+    schema: dbt_kkafkova
+    tables:
+      - name: stg_github
+        identifier: "stg_github"

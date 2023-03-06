@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: stg_stack_overflow_answers
+    description: "Dataset of answers from stackoverflow from year 2022"
+    columns:
+      - name: id
+        description: "ID number of answer"
+        tests:
+          - unique
+          - not_null
+
+      - name: title
+        description: "Title of answer"
+
+      - name: body
+        description: "Body of answer"
+
+      - name: accepted_answer_id
+        description: "ID number fo accepted asnwer"
+
+      - name: answer_count
+        description: "Number of answers counted"
+
+      - name: comment_count
+        description: "Number of comments counted"
+
+      - name: community_owned_date
+        description: ""
+
+      - name: creation_date
+        description: "Date of creation"
+
+      - name: favorite_count
+        description: "Count of favories"
+
+      - name: last_activity_date
+        description: ""
+
+      - name: last_edit_date
+        description: ""
+
+      - name: last_editor_display_name
+        description: ""
+
+      - name: last_editor_user_id
+        description: ""
+
+      - name: owner_display_name
+        description: ""
+
+      - name: owner_user_id
+        description: ""
+
+      - name: parent_id
+        description: "ID number of  question"
+
+      - name: post_type_id
+        description: ""
+
+      - name: score
+        description: ""
+
+      - name: tags
+        description: ""
+
+      - name: view_count
+        description: ""

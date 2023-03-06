@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: int_gsheet2
+    database: nodal-wall-370813
+    schema: dbt_kkafkova
+    tables:
+      - name: int_gsheet2
+        identifier: "int_gsheet"
+
+  - name: stg_stackoverflow_questions2
+    database: nodal-wall-370813
+    schema: dbt_kkafkova
+    tables:
+      - name: stg_stackoverflow_questions2
+        identifier: "stg_stackoverflow_questions"
+
+  - name: stg_stackoverflow_answers2
+    database: nodal-wall-370813
+    schema: dbt_kkafkova
+    tables:
+      - name: stg_stackoverflow_answers2
+        identifier: "stg_stackoverflow_answers"

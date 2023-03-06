@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_snapshot
+    database: nodal-wall-370813
+    schema: dbt_kkafkova
+    tables:
+      - name: gs_snapshot
+        identifier: 'gsheet_snapshot'

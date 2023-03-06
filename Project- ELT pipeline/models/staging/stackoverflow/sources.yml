@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: Q
+    database: bigquery-public-data
+    schema: stackoverflow
+    tables:
+      - name: posts_questions
+        identifier: 'posts_questions'
+
+  - name: A
+    database: bigquery-public-data
+    schema: stackoverflow
+    tables:
+      - name: posts_answers
+        identifier: 'posts_answers'

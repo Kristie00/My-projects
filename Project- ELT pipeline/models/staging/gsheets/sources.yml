@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: google_sheets
+    database: nodal-wall-370813
+    schema: google_data
+    tables:
+      - name: gs
+        identifier: List_1
