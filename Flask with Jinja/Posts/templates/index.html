@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<link lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='base.css')}}">
+    <title>Posts</title>
+</head>
+<body>
+    <h1>Posts</h1>
+    {% for post in posts %}
+    <article>
+        <h1>id= "{{ post['id'] }}">{{ post['author']|capitalize()}} <a href="#p{{post['id']}}">¶</a></h1>
+        <p>{{ post['content']}}</p>
+        <p> Liked by
+                {% for i in post['likes'] %}
+                    <span>{{i|capitalize()}}{% if not loop.last %},{% endif %}</span>
+                {% endfor %}
+        </p>
+        {% endfor %}
+    </article>
+</body>
+</html>

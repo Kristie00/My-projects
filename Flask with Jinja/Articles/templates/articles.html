@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+</head>
+<body>
+    {% for a in articles %}
+         <p>{{ a["content"] | truncate(255)}} </p>
+    {% if a["seen"] == [] %}
+        <p> No one seen this article before.</p>
+    {% elif a["seen"] | length == 3 %}
+        <p>{{ a["seen"][0]}}, {{a["seen"][1]}} and {{ a["seen"][2]}}.</p>
+    {% elif a["seen"] | length == 2 %}
+        <p>{{ a["seen"][0]}} and {{a["seen"][1]}}.</p>
+    {% elif a["seen"] | length == 1 %}
+        <p>{{ a["seen"][0]}}.</p>
+    {% endif %}
+    {% endfor %}
+</body>
+</html>
