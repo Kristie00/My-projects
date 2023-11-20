@@ -22,15 +22,12 @@ In this section, I would like to present some of the projects I did during my bo
 + [0th Project- My first website](https://github.com/Kristie00/My-projects/tree/main/0th%20project-%20My%20first%20website)
   + Prior to the bootcamp, I had the chance to get a taste of programming by creating my first website about myself. This initial project served as a foundation for my subsequent learning, and helped me gain familiarity with basic HTML and CSS.
 + [Project Movies](https://github.com/Kristie00/My-projects/tree/main/Project%20Movies%20with%20REST%20API%2C%20pyodbc)
-  + My project involved using Python, Flask, Jinja, and SQL to develop a web page that can be accessed locally. By leveraging the pyodbc module, I was able to connect the web page to an MSSQL database, which allowed me to use SQL queries to manipulate and retrieve data from the database, according to used HTTP method. 
-+ [Link to repository](insert link here)
-+ [Link to repository](insert link here)
-+ [Link to repository](insert link here)
-+ [Link to repository](insert link here)
-[Link to repository](insert link here)
-
-
-### Part 5: [Part Name]
-[Link to repository](insert link here)
+  + My project involved using Python, Flask, Jinja, and SQL to develop a web page that can be accessed locally. By leveraging the pyodbc module, I was able to connect the web page to an MSSQL database, which allowed me to use SQL queries to manipulate and retrieve data from the database, according to used HTTP method.
++ [Preparation for Second Exam](https://github.com/Kristie00/My-projects/tree/main/Templates%20for%20exam)
+  + In training for the Second Data Engineering Exam I developed a workflow using Airflow to extract data from a REST API, transform it, and store it in a database. I implemented processes to transfer and transform data between MSSQL tables, and between MSSQL and MongoDB. Also managed data flow from files to MSSQL, followed by transformation and storage in MongoDB. 
++ [Second Exam](https://github.com/Kristie00/My-projects/tree/main/Exam%20from%20second%20phase-%20ETL%20pipeline)
+  + Check out my solution of the second exam. I had to create a ELT pipeline which collects information about Airports using Airflow. I had to get data from REST API and dataset about airports, transform and load it to a MSSQL database and MongoDB. Final part was answering the questions to check, if I could use correct queries and if my pipeline works correct.
++ [Final Project](https://github.com/Kristie00/My-projects/tree/main/Project-%20ELT%20pipeline)
+  + In my final project, I utilized Airbyte on Docker for data extraction from Google Spreadsheets and public datasets. I used Big Query for data storage and dbt for data transformation, automated processes with Airflow, visualized and analyzed cleaned data using PowerBI to determine the most used data engineering technology in 2021.
 
 Thank you for checking out my projects! If you have any questions or feedback, feel free to reach out to me.
